@@ -1,0 +1,1 @@
+/data/lgb/bin/SVInDel_V1/rice/benchmarkSVInDEL4rice.py

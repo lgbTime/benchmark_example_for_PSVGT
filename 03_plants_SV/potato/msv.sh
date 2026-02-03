@@ -1,0 +1,4 @@
+python msv_Stat4_Table.py chr1_msv_no_suppp chr1_debreak.vcf
+python msv_Stat4_Table.py chr1_msv_no_suppp chr1_PSVGT_signal_falseGT.vcf
+python msv_Stat4_Table.py chr1_msv_no_suppp chr1_sniffles.vcf
+python msv_Stat4_Table.py chr1_msv_no_suppp chr1_cuteSV.vcf

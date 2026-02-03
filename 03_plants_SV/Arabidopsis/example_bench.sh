@@ -1,0 +1,12 @@
+python benchmark_delly_manta_PSVGT_no_bed.py -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis4genotype_concrodance_hifi.vcf
+python benchmark_delly_manta_PSVGT_no_bed.py -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis4reacall_precision_f1.cr.vcf
+python benchmark_delly_manta_PSVGT_no_bed.py -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_short_read_assemblies.PSVGT_lrGT.vcf
+python benchmark_delly_manta_PSVGT_no_bed.py -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_sorted.bam_bpgenotype.PSVGT_srGT.vcf
+python benchmark_delly_manta_PSVGT_no_bed.py -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_sorted.bam.delly.vcf -t delly
+python benchmark_delly_manta_PSVGT_no_bed.py -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_sorted.bam.manta.vcf -t manta
+python benchmark_delly_manta_PSVGT_with_bed.py -r Arabidopsis.bed -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis4genotype_concrodance_hifi.vcf
+python benchmark_delly_manta_PSVGT_with_bed.py -r Arabidopsis.bed -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis4reacall_precision_f1.cr.vcf
+python benchmark_delly_manta_PSVGT_with_bed.py -r Arabidopsis.bed -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_short_read_assemblies.PSVGT_lrGT.vcf
+python benchmark_delly_manta_PSVGT_with_bed.py -r Arabidopsis.bed -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_sorted.bam_bpgenotype.PSVGT_srGT.vcf
+python benchmark_delly_manta_PSVGT_with_bed.py -r Arabidopsis.bed -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_sorted.bam.delly.vcf -t delly
+python benchmark_delly_manta_PSVGT_with_bed.py -r Arabidopsis.bed -b chr1_Arabidopsis4genotype_concrodance_hifi.vcf -i chr1_Arabidopsis_sorted.bam.manta.vcf -t manta

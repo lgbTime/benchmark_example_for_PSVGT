@@ -1,0 +1,1 @@
+../../../simulation_data/simulate_human/00_debreak_benchmark/bench_mark_tra/0.get_genome.sh
