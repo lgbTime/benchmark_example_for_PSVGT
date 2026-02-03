@@ -28,7 +28,7 @@ bash 0.get_genome.sh
 ### To benchmark the performance of each method in simulated datasets
 ```
 python bench2vcf.py allsv-random-sorted-rev allsv-random-sorted-rev.vcf
-python benchmarking4suppTable.py  script.py allsv-random-sorted-rev.vcf method_result.vcf
+python benchmarking4suppTable.py allsv-random-sorted-rev.vcf method_result.vcf
 ```
 
 ## 02 real data benchmark 
